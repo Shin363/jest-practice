@@ -1,0 +1,8 @@
+{
+  "jest.pathToJest": "**/node_modules/.bin/jest",
+  "jest.pathToConfig": "**/jest.config.js",
+  "jest.showCoverageOnLoad": true,
+  "terminal.integrated.env.osx": {
+    "PATH": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+  }
+}
