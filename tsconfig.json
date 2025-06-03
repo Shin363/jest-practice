@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    // ...
+    "types": ["jest", "jest-extended"]
+  },
+  "files": ["global.d.ts"]
+}
