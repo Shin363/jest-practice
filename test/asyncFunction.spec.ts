@@ -1,6 +1,9 @@
 import * as fns from "../src/asyncFunction";
 
 test("okPromise테스트, resolves와 then사용하기 return 넣어줄 것", () => {
+  //비동기 함수 테스트는 expect가 실행되지 않아도 true를 반환하기 때문에 확실히 expect가 호출되었는지를 확인하려면
+  //expect.assertion(횟수)를 써준다.
+  expect.assertions(1);
   const okSpy = jest.fn(fns.okPromise);
   //return expect(okSpy()).resolves.toBe("ok");
   return okSpy().then((result) => {
